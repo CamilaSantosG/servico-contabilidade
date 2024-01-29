@@ -1,0 +1,53 @@
+@media (min-width: 200px) and (max-width: 850px) {
+    .main {
+        background-image: url(../img/responsividade.png);
+    }
+
+    .text {
+        margin: 0;
+        padding: 5%;
+        font-size: ;
+    }
+
+    .button button {
+        margin-left: 5%;
+
+    }
+
+    .about .about__img {
+        display: none;
+    }
+
+    .about {
+        margin-top: -200px;
+        margin-bottom: 100px;
+    }
+
+    .about .about__text h1 {
+        padding: 0 10%;
+    }
+
+    .about .about__text p {
+        margin: 0;
+        padding: 0 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .our-services .services {
+        display: inline-block;
+    }
+
+    .our-services .our-services__title {
+        margin-top: 20px;
+    }
+
+    .company .company__about .text-company {
+        font-size: 30px;
+    }
+
+    .company .company__about .subtext-company {
+        font-size: 15px;
+    }
+}
